@@ -3,7 +3,7 @@
 export const Footer = () => {
     return(
         <footer>
-            Всу право защищены &copy;
+             ©️ 2023 Все права защищены
         </footer>
     )
 }

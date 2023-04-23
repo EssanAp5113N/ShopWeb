@@ -1,10 +1,15 @@
 
 
-export const Services = (props) => {
+export const Services = () => {
+    const servPanels = [
+        {
+            id: 1, title: "Боулинг"
+        }
+    ]
+
     return(
-        <div className="aboutUs">
-            <h1>{props.h}</h1>
-            <p>{props.text}</p>
+        <div className="servicesB">
+            <p>Услуги</p>
         </div>
     )
 }
