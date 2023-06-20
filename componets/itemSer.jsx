@@ -32,8 +32,11 @@ export const ItemSer = (props) => {
     return(
         <div className="serDop">
             <img className="serI" src={props.img}/>
-            <h1 className="nameSer">{props.title}</h1>
-            <div className="nameSer">{props.tit}</div>
+            <div className="nameSer">
+                <h1 className="serH">{props.title}</h1>
+                <a className="serA" href={props.link}>Подробнее</a>
+            </div>
+            
         </div>
     )
 }
