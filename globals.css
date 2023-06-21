@@ -12,8 +12,8 @@ body {
 }
 
 .wrapper {
-    width: 1110px;
-    margin: 50 auto;
+    width: 1260px;
+
 }
 
 header .logo {
@@ -23,7 +23,7 @@ header .logo {
 }
 
 header .presentation {
-    margin: 10px 45px 90px;
+    margin: 10px -35px 90px;
     background: url('https://fashion-stickers.ru/29229-large_default/zajac-s-sigaretoy-v-zubah.jpg') no-repeat;
     width: 100%;
     height: 500px;
@@ -31,26 +31,28 @@ header .presentation {
     position: relative;
 }
 
-header ul.nav {
+header .nav {
     float: right;
-    list-style: none;
+    margin: 10px 50px;
+    display: flex;
+    width: 215px;
+    justify-content: space-evenly;
 }
 
-header ul.nav li {
-    display: inline;
-    margin-left: 25px;
+header .navB {
+    border: none;
     cursor: pointer;
+    background-color: #F6F6F6;
+    font-size: 16px;
 }
 
-header ul.nav li:hover {
-    opacity: 0.5;
-}
+
 
 header .presentation::after {
     content: "Развлекательный клуб";
     position: absolute;
     top: 500px;
-    left: 330px;
+    left: 410px;
     font-weight: 800;
     color: #222;
     font-size: 40px;
@@ -61,7 +63,7 @@ header .presentation::after {
 .aboutUs {
     background-color: #0C0C0C;
     color: white;
-    height: 495px;
+    height: 460px;
     width: 1265px;
     font-size: 32px;
     
@@ -116,6 +118,8 @@ header .presentation::after {
     bottom: 90px;
     z-index: 1;
     margin: 0px 20px;
+    text-align: left;
+    font-size: 25px;
 }
     
 .serA {

@@ -5,11 +5,11 @@ export const Header = () => {
         <header>
             <div>
                 <span className="logo">Братец кролик</span>
-                <ul className="nav">
-                    <li>Каталог</li>
-                    <li>Контакты</li>
-                    <li>О нас</li>
-                </ul>
+                <div className="nav">
+                    <button className="navB">Услуги</button>
+                    <button className="navB">Контакты</button>
+                    <button className="navB">О нас</button>
+                </div>
             </div>
                 
             
